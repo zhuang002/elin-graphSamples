@@ -13,6 +13,8 @@ public class ClassAndBFS {
 		Node root = loadGraph("graph1.dat");
 		
 		System.out.println("Connection: "+ isConnected(root));
+		
+		
 	}
 
 	private static boolean isConnected(Node root) {
